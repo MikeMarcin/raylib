@@ -165,6 +165,6 @@ void android_main(struct android_app *app)
     
     UnloadTexture(texture); // Unload texture data
     
-    CloseWindow();          // Close window and OpenGL context
+    rlCloseWindow();          // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 }

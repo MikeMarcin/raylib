@@ -147,7 +147,7 @@ int main()
     UnloadTexture(texture);       // Unload texture from VRAM
     UnloadImage(image);           // Unload image from RAM
 
-    CloseWindow();                // Close window and OpenGL context
+    rlCloseWindow();                // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

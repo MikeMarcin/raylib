@@ -98,7 +98,7 @@ int main()
     //--------------------------------------------------------------------------------------
     for (int i = 0; i < 8; i++) UnloadSpriteFont(fonts[i]);       // SpriteFont(s) unloading
     
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

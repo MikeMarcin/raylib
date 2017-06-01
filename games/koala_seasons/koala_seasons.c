@@ -139,7 +139,7 @@ int main(void)
     
     CloseAudioDevice();         // Close audio device
 
-    CloseWindow();              // Close window and OpenGL context
+    rlCloseWindow();              // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 #if !defined(PLATFORM_ANDROID)
     return 0;

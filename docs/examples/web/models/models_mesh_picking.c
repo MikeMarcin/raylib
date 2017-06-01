@@ -99,7 +99,7 @@ int main()
     UnloadModel(tower);         // Unload model from GPU
     UnloadTexture(texture);     // Unload texture from GPU
     
-    CloseWindow();              // Close window and OpenGL context
+    rlCloseWindow();              // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

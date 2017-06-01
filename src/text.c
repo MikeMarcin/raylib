@@ -79,7 +79,7 @@
 //----------------------------------------------------------------------------------
 #if defined(SUPPORT_DEFAULT_FONT)
 static SpriteFont defaultFont;        // Default font provided by raylib
-// NOTE: defaultFont is loaded on InitWindow and disposed on CloseWindow [module: core]
+// NOTE: defaultFont is loaded on InitWindow and disposed on rlCloseWindow [module: core]
 #endif
 
 //----------------------------------------------------------------------------------
@@ -219,7 +219,7 @@ extern void LoadDefaultFont(void)
     //------------------------------------------------------------------------------
     
     // Allocate space for our characters info data
-    // NOTE: This memory should be freed at end! --> CloseWindow()
+    // NOTE: This memory should be freed at end! --> rlCloseWindow()
     defaultFont.chars = (CharInfo *)malloc(defaultFont.charsCount*sizeof(CharInfo));    
 
     int currentLine = 0;

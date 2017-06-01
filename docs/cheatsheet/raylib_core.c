@@ -1,7 +1,7 @@
 
     // Window-related functions
     void InitWindow(int width, int height, char* title);                    // Initialize Window and Graphics Context (OpenGL)
-    void CloseWindow(void);                                                 // Close window and unload OpenGL context
+    void rlCloseWindow(void);                                                 // Close window and unload OpenGL context
     bool WindowShouldClose(void);                                           // Check if KEY_ESCAPE pressed or Close icon pressed
     bool IsWindowMinimized(void);                                           // Check if window has been minimized (or lost focus)
     void ToggleFullscreen(void);                                            // Toggle fullscreen mode (only PLATFORM_DESKTOP)

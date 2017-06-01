@@ -67,7 +67,7 @@ int main()
     UnloadMusicStream(music);   // Unload music stream buffers from RAM
 
     CloseAudioDevice();     // Close audio device (music streaming is automatically stopped)
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

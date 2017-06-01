@@ -129,7 +129,7 @@ int main(int argc, char *argv[])
 
     CloseAudioDevice();     // Close audio context
     
-    CloseWindow();          // Close window and OpenGL context
+    rlCloseWindow();          // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 	
     return 0;

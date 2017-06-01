@@ -68,7 +68,7 @@ int main()
     UnloadSpriteFont(fontBm);     // AngelCode SpriteFont unloading
     UnloadSpriteFont(fontTtf);    // TTF SpriteFont unloading
     
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

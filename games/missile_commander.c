@@ -149,7 +149,7 @@ int main()
     //--------------------------------------------------------------------------------------
     UnloadGame();         // Unload loaded data (textures, sounds, models...)
     
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

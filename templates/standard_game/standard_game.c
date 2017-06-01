@@ -137,7 +137,7 @@ int main(void)
     
     // TODO: Unload all global loaded data (i.e. fonts) here!
     
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 	
     return 0;

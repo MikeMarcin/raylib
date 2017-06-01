@@ -77,7 +77,7 @@ int main()
     UnloadSpriteFont(font1);      // SpriteFont unloading
     UnloadSpriteFont(font2);      // SpriteFont unloading
     UnloadSpriteFont(font3);      // SpriteFont unloading
-    CloseWindow();        // Close window and OpenGL context
+    rlCloseWindow();        // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

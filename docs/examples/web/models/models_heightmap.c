@@ -70,7 +70,7 @@ int main()
     UnloadTexture(texture);     // Unload texture
     UnloadModel(map);           // Unload model
 
-    CloseWindow();              // Close window and OpenGL context
+    rlCloseWindow();              // Close window and OpenGL context
     //--------------------------------------------------------------------------------------
 
     return 0;

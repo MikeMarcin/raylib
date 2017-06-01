@@ -533,7 +533,7 @@ void InitWindow(int width, int height, void *state)
 #endif
 
 // Close window and unload OpenGL context
-void CloseWindow(void)
+void rlCloseWindow(void)
 {
 #if defined(SUPPORT_GIF_RECORDING)
     if (gifRecording)

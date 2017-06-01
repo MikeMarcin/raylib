@@ -659,7 +659,7 @@ RLAPI void InitWindow(int width, int height, void *state);        // Initialize 
 RLAPI void InitWindow(int width, int height, const char *title);  // Initialize window and OpenGL context
 #endif
 
-RLAPI void CloseWindow(void);                                     // Close window and unload OpenGL context
+RLAPI void rlCloseWindow(void);                                     // Close window and unload OpenGL context
 RLAPI bool WindowShouldClose(void);                               // Check if KEY_ESCAPE pressed or Close icon pressed
 RLAPI bool IsWindowMinimized(void);                               // Check if window has been minimized (or lost focus)
 RLAPI void ToggleFullscreen(void);                                // Toggle fullscreen mode (only PLATFORM_DESKTOP)
